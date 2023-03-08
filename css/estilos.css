@@ -25,18 +25,20 @@ section {
 
 
 nav {
-    background-color: lightslategrey;
-    height: 50px;
-    align-self: center;
+    
+    
+    align-items: normal;
 }
 
 .barra_de_botones {
     width: 500px;
+    height: 50px;
     display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 12px;
 }
 
-.boton_ancla {
+.link_ancla {
     margin: 5px;
     padding: 5px;
     border-style: double;
