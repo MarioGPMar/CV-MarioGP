@@ -6,29 +6,31 @@ body {
 }
 
 header {
-    height: 200px;
+    height: 250px;
     display: flex;
-    columns: 1fr 2fr;
+    columns: 1fr 1fr 2fr;
     background-color: lightgrey;
     padding: 25px;
     margin: 15px;
 }
 
+#resenia {
+    display: grid;
+    grid-template-rows: 30fr 20fr 20fr 20fr 10fr ;
+}
+
 section {
     padding: 25px;
+    margin: 15px;
+    border;
 }
 
 #imagen {
-    width: 100; height: 150;
+    width: 150; height: 2000;
    
 }
 
 
-nav {
-    
-    
-    align-items: normal;
-}
 
 .barra_de_botones {
     width: 500px;
@@ -41,8 +43,16 @@ nav {
 .link_ancla {
     margin: 5px;
     padding: 5px;
-    border-style: double;
+    border-radius: 0%;
     border-color: blue;
+}
+
+#lista_informacion_personal > li {
+    list-style: none;
+}
+
+ul {
+    font-size: 20px;
 }
 
 .contenedor {
