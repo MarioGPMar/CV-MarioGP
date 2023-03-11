@@ -22,7 +22,7 @@ header {
 section {
     padding: 25px;
     margin: 15px;
-    border;
+    border-radius: 10px;
 }
 
 #imagen {
@@ -30,10 +30,8 @@ section {
    
 }
 
-
-
 .barra_de_botones {
-    width: 500px;
+    width: 600px;
     height: 50px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -42,9 +40,14 @@ section {
 
 .link_ancla {
     margin: 5px;
-    padding: 5px;
-    border-radius: 0%;
-    border-color: blue;
+    padding: 20%;
+    border-radius: 50%;
+    border-color: none;
+    border-style: none;
+    background-color: rgb(255, 213, 0);
+    color: rgb(63, 57, 57);
+    text-align: center;
+
 }
 
 #lista_informacion_personal > li {
@@ -59,7 +62,7 @@ ul {
     height: 300px;
     width: 600px;
     display: grid;
-    /*grid-template-columns: 25% 75%;*/
+    grid-template-columns: 25% 75%;
     border-color: blue;
     border-style: solid;
     border: 2px;

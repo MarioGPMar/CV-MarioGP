@@ -7,7 +7,7 @@ document.getElementById("enviar").onclick = function() {
     nombre = document.getElementsByName("nombre_empresa").valor;
     correo = document.getElementsByName("correo").valor;
     telefono = document.getElementsByName("telefono").valor;
-    if(nombre != "null" && correo != "null" || telefono != "null") {
+    if(nombre != "undefined" && correo != "undefined" || telefono != "undefined") {
         document.getElementById("mensaje").textContent = "Sus datos de Contacto fueron eviados correctamente. Me comunicaré por uno de los medios indicados. Gracias."+nombre+correo+telefono;
         document.getElementById("mensaje").style.display = "block"
     }else {
